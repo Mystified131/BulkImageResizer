@@ -19,5 +19,7 @@ def resize_aspect_fit():
             image = image.resize((new_image_height, new_image_length), Image.ANTIALIAS)
             image.save(file_path + "_small" + extension, 'JPEG', quality=90)
 
+            print(file_path)
+
 
 resize_aspect_fit()
