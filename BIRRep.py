@@ -2,7 +2,8 @@ from PIL import Image
 import os
 
 path = "C:\\Users\\mysti\\Coding\\BulkImageResizer\\static\\"
-resize_ratio = 0.3  # where 0.5 is half size, 2 is double size
+
+resize_ratio = 0.2  # where 0.5 is half size, 2 is double size
 
 def resize_aspect_fit():
     dirs = os.listdir(path)
